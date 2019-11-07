@@ -18,7 +18,7 @@ public class MyController {
         mv.addObject("myname",name);
         mv.addObject("myage",age);
         mv.setViewName("result");
-        System.out.println(123);
+        System.out.println(1456);
         return mv;
     }
 
