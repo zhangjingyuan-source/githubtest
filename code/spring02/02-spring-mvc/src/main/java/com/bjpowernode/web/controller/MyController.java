@@ -17,7 +17,6 @@ public class MyController {
         ModelAndView mv = new ModelAndView();
         mv.addObject("myname",name);
         mv.addObject("myage",age);
-
         return mv;
     }
 
